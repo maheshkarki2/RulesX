@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RulesX.Console", "src\RulesX\RulesX.Console.csproj", "{7C03D5A0-7DDB-4548-B13A-61B0199224B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RulesX.Metadata", "src\RulesX.Metadata\RulesX.Metadata.csproj", "{C284CCF6-0B83-4FB3-B6F0-59AAB914EE6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3F0868D6-34DB-494C-9AE1-B4B785B4D876}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C03D5A0-7DDB-4548-B13A-61B0199224B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C03D5A0-7DDB-4548-B13A-61B0199224B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C03D5A0-7DDB-4548-B13A-61B0199224B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C03D5A0-7DDB-4548-B13A-61B0199224B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C284CCF6-0B83-4FB3-B6F0-59AAB914EE6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C284CCF6-0B83-4FB3-B6F0-59AAB914EE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C284CCF6-0B83-4FB3-B6F0-59AAB914EE6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C284CCF6-0B83-4FB3-B6F0-59AAB914EE6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C03D5A0-7DDB-4548-B13A-61B0199224B3} = {3F0868D6-34DB-494C-9AE1-B4B785B4D876}
+		{C284CCF6-0B83-4FB3-B6F0-59AAB914EE6C} = {3F0868D6-34DB-494C-9AE1-B4B785B4D876}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A18D887-9DBE-4F84-B32A-DC3EBB4E6A4A}
+	EndGlobalSection
+EndGlobal
