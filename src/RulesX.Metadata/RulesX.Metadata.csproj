@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>https://github.com/maheshkarki2/RulesX/wiki</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/maheshkarki2/RulesX/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/maheshkarki2/RulesX</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageTags>Rules Engine, C# Generic Rules,</PackageTags>
+    <Description>RulesX is a simple rule evaluation C# library built using reflection, expressions and some linq. It evaluates the rule by comparing a given value with the matching property name in the type.
+It supports evaluation of rules on a single object, collection of objects and also on complex objects</Description>
   </PropertyGroup>
 
 </Project>
